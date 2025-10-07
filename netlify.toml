@@ -1,0 +1,9 @@
+[build]
+  # Папка с фронтендом, которую нужно опубликовать
+  publish = "public"
+  # Папка, где лежат наши бессерверные функции
+  functions = "functions"
+
+[functions]
+  # Указываем, что наши функции написаны на Node.js
+  node_bundler = "esbuild"
